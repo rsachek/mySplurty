@@ -1,6 +1,6 @@
 @import "bootstrap";
 
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 .clear {
   clear: both;
@@ -39,7 +39,7 @@
 .links a {
   color: black;
   font-size: 25px;
-  border-bottom: 1px solid #dfdfdf;
+  border-bottom: 3px solid #dfdfdf;
 }
 
 header {
@@ -51,16 +51,16 @@ hr {
 }
 
 h1 {
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Roboto';
 }
 
 h2 {
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Roboto';
 }
 
 .next-quote {
   color: #f84342;
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Roboto';
   font-size: 20px;
 }
 
@@ -89,9 +89,15 @@ h2 {
   font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
 }
 
-h2 span {
-  color: #dddddd;
-  font-family: 'Indie Flower', cursive;
+.quote_number {
+  font-family: 'Roboto';
+  color: #dfdfdf;
+  font-weight: bold;
+}
+
+.quote_desc {
+  color: black;
+  font-style: italic;
 }
 
 ::selection {
