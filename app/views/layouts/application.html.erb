@@ -23,7 +23,7 @@
 <% end %>
     </div>
       <div class="col col-sm-5 hidden-xs-down slogan">
-        Splurting out unsolicited advice about entrepreneurship since 2016
+        Splurting out unsolicited advice since 2016.
       </div>
       <div class="col-10 offset-1 offset-sm-0 col-sm-5 links">
         <%= link_to 'Contribute', '#', data: {toggle: 'modal', target: '#myModal'} %>
@@ -46,13 +46,12 @@
           </div>
           <%= simple_form_for Quote.new do |f| %>
           <div class="modal-body">
-             <%= f.input :saying, label: "What is the saying you want to add?", placeholder: "Fear is the disease. Hustle is the antidote." %>
+             <%= f.input :saying, label: "What is the saying you want to add?" %>
              <br />
-              <%= f.input :author, label: "Who is the author of the quote?", placeholder: "Travis Kalanick" %>
+              <%= f.input :author, label: "Who is the author of the quote?" %>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
             <%= f.submit 'Create', class: 'btn btn-danger' %>
           </div>
           <% end %>
