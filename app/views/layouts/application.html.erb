@@ -10,7 +10,7 @@
 
   <body>
     <header class="row">
-      <div class="col-2">
+      <div class="col-2" style="padding-left:35px">
         <%= link_to root_path class: 'logo' do %>
         <div class="circle">
   <br />
@@ -22,10 +22,10 @@
 </div>
 <% end %>
     </div>
-      <div class="col col-sm-5 hidden-xs-down slogan">
+      <div class="col col-sm-5 hidden-xs-down slogan" style="text-align:center">
         Splurting out unsolicited advice since 2016.
       </div>
-      <div class="col-10 offset-1 offset-sm-0 col-sm-5 links">
+      <div class="col-10 offset-1 offset-sm-0 col-sm-5 links" style="text-align:right; padding-right:35px">
         <%= link_to 'Contribute', '#', data: {toggle: 'modal', target: '#myModal'} %>
         &nbsp;&nbsp;
         <%= link_to 'About', about_path %>
